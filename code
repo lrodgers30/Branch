@@ -1,2 +1,2 @@
 #Enable Dynamic Memory
-Set-VMMemory $VMName -DynamicMemoryEnabled $true -MinimumBytes 2048MB -StartupBytes 2048MB -MaximumBytes 4GB -Priority 80 -Buffer 25
+Set-VMMemory $VMName DynamicMemoryEnabled $true -MinimumBites 2048MB -StartupBytes 2048MB -MaximumBytes 4GB -Priority 80 -Buffer 25
